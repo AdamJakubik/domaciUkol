@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class ZvysPocetProdeju {
+public class ZvysPocetProdeju extends Exception{
+
+    public ZvysPocetProdeju(String message) { super(message);}
+
 }
+
